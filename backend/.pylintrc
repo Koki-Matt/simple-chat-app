@@ -1,0 +1,16 @@
+[MASTER]
+ignore=venv,.venv
+init-hook='import sys, os; sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "app")))'
+
+[MESSAGES CONTROL]
+disable=
+    missing-module-docstring,
+    missing-class-docstring,
+    missing-function-docstring,
+    import-error,
+    no-name-in-module
+
+[FORMAT]
+max-line-length=100
+
+
