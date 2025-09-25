@@ -39,3 +39,29 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+.venv
+
+# Python (backend)
+**/__pycache__/
+**/*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+dist/
+build/
+*.egg-info/
+.eggs/
+.ipynb_checkpoints/
+
+# Transformers / Hugging Face caches (if configured inside repo)
+backend/.cache/
+backend/cache/
+backend/models/
+backend/checkpoints/
