@@ -81,3 +81,7 @@ Without the virtual environment, you'll get `ModuleNotFoundError` in both termin
 - 📝 Example prompts
 - 🔄 Real-time text generation
 - 📱 Responsive design
+
+## Demo video
+
+https://github.com/user-attachments/assets/dfbb66d2-8420-46be-b867-3e4c20c8dda9
